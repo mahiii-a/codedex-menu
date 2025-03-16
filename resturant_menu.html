@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riko Cafe</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Horizontally center everything */
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+            background-color:#D2E0D3 ;
+        }
+       
+        #image-cafe{
+            height: 90px;
+
+
+        }
+        #menu-div{
+            background-color: white;
+        }
+        #image-cafe{
+            background-color: transparent;
+        }
+        label {
+            display: flex;
+            align-items: center;
+            gap: 8px; /* space between checkbox/radio and label */
+            margin-bottom: 16px;
+}
+
+        
+        
+        
+
+    </style>
+</head>
+<body>
+    <!-- head of menu -->
+    <header id="header-img">
+        <img src="Green Cafe.gif" alt="Cafe GIF">
+        <h1>The Riko Café</h1>
+        <nav>
+            <a href="#menu">Menu</a><br/>
+            <a href="#order-form">Order Form</a>
+        </nav>
+    </header>
+    
+    <!-- main section -->
+     <main>
+        <div id="menu-div">
+        <h2 id="#menu">Menu</h2>
+        <article>
+            <img src="Manhã uma xícara de café com colher e amor sinal Vector clip-art ilustração _ Vetor Premium.jpg" id="image-cafe">
+            <h3 id="text">Coffee ($4)</h3>
+            <p><b>Description: </b> Coffee is a rich, aromatic drink made from brewed roasted coffee beans.</p>
+        </article>
+        <!-- first item -->
+        <article>
+            <img src="download (1).jpg" id="image-cafe">
+            <h3 id="text">Pancakes ($2)</h3>
+            <p><b>Description: </b>Pancakes are soft, fluffy cakes 
+                served with syrup or toppings.</p>
+        </article>
+        <!-- second item -->
+        <article>
+            <img src="Korean Rice Cake Vector Hd Images, Korean Spicy Fried Rice Cake Hand Drawn Material Vector, Rice Cake, Hand Painted, Material PNG Image For Free Download.jpg" id="image-cafe">
+            <h3 id="text">Tteokbokki ($7)</h3>
+            <p><b>Description: </b>Tteokbokki is a spicy 
+                Korean rice cake dish with a chewy texture.</p>
+        </article>
+        <!-- third item -->
+        <article>
+            <img src="download (2).jpg" id="image-cafe">
+            <h3 id="text">Baos ($4)</h3>
+            <p><b>Description: </b>Baos are soft, steamed buns filled with savory or sweet ingredients.</p>
+        </article>
+        <!-- fourth item -->
+        <article>
+            <img src="_Banana Milk_ Sticker for Sale by coffeesoo.jpg" id="image-cafe">
+            <h3 id="text">Banana Milk ($2)</h3>
+            <p><b>Description: </b>Korean banana milk is a sweet, 
+                creamy drink with a rich banana flavor.</p>
+        </article>
+        <!-- fifth item -->
+        </div>
+         <br><hr><br>
+         <div id="form-1">
+        <h2 id="#order-form">Order Form</h2>
+        <form>
+            <h3>No. of Items to order: </h3><input type="number" min="0" required> 
+            <h3>Select your Sides: </h3>
+            <label><input type="checkbox">Tteokbokki<br/></label>
+            <label><input type="checkbox">Baos<br/></label>
+            <label><input type="checkbox">Pancakes <br/></label>
+            <h3>Choose your Drink: </h3>
+            <label><input type="radio" name="drink"> Coffee<br/></label>
+            <label><input type="radio" name="drink"> Banana Milk<br></label>
+            <label><input type="radio" name="drink">Water </label>
+            <h3>Special Requests: </h3>
+            <textarea height="1000" width="100"></textarea><br/><br/>
+            <input type="submit" value="Go to Checkout">
+
+        </form>
+        </div>
+     </main>
+     <!-- footer area -->
+      <footer>
+        <p>Made with love by: @mahiii-a</p>
+      </footer>
+    
+</body>
+</html>
